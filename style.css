@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .hero-section {
+    background-color: #e9ecef;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  /* Responsividade extra */
+  @media (max-width: 768px) {
+    .swiper-slide {
+      font-size: 1rem;
+      height: 200px;
+    }
+  }
+  
